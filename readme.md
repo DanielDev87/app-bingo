@@ -1,6 +1,7 @@
 # 🎰 Bingo Web App - Gestor y Pantalla Pública
 
-![Bingo Demo](https://img.shields.io/badge/Demo-Online-green) 
+![Bingo Demo Vista Publico]](https://jade-kringle-8d58db.netlify.app/display.html) 
+![Bingo Demo Vista Gestor]](https://jade-kringle-8d58db.netlify.app) 
 ![Tech Stack](https://img.shields.io/badge/Stack-HTML%2FCSS%2FJS-blue)
 
 Una aplicación web completa para gestionar juegos de bingo con interfaz dual: **gestor** para controlar el juego y **pantalla pública** para mostrar información en tiempo real.
