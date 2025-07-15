@@ -1,10 +1,5 @@
 # 🎰 Bingo Web App - Gestor y Pantalla Pública
 
-🎰 Bingo Web App - Gestor y Pantalla Pública
-
-https://img.shields.io/badge/Demo-Vista%2520P%C3%BAblica-blue?style=for-the-badge&logo=netlify&link=https://jade-kringle-8d58db.netlify.app/display.html
-https://img.shields.io/badge/Demo-Vista%2520Gestor-orange?style=for-the-badge&logo=netlify&link=https://jade-kringle-8d58db.netlify.app
-
 ![Bingo Demo Vista Publico]](https://jade-kringle-8d58db.netlify.app/display.html) 
 ![Bingo Demo Vista Gestor]](https://jade-kringle-8d58db.netlify.app) 
 ![Tech Stack](https://img.shields.io/badge/Stack-HTML%2FCSS%2FJS-blue)
