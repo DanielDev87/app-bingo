@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Bingo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Bingo</h1>
+        
+        <div class="game-controls">
+            <button id="newGame">Nuevo Juego</button>
+            <div id="lastNumber">Último número: -</div>
+        </div>
+        
+        <div class="letter-selector">
+            <h2>Selecciona una letra:</h2>
+            <div class="letters">
+                <button class="letter-btn" data-letter="B">B</button>
+                <button class="letter-btn" data-letter="I">I</button>
+                <button class="letter-btn" data-letter="N">N</button>
+                <button class="letter-btn" data-letter="G">G</button>
+                <button class="letter-btn" data-letter="O">O</button>
+            </div>
+        </div>
+        
+        <div class="number-selector" id="numberSelector">
+            <h2>Selecciona un número:</h2>
+            <div class="numbers-grid">
+                <!-- Se generará dinámicamente según la letra -->
+            </div>
+        </div>
+        
+        <div class="called-numbers">
+            <h2>Números llamados:</h2>
+            <div class="letters-row">
+                <div class="letter-column">
+                    <h3>B (1-15)</h3>
+                    <div id="calledB" class="called-numbers-list"></div>
+                </div>
+                <div class="letter-column">
+                    <h3>I (16-30)</h3>
+                    <div id="calledI" class="called-numbers-list"></div>
+                </div>
+                <div class="letter-column">
+                    <h3>N (31-45)</h3>
+                    <div id="calledN" class="called-numbers-list"></div>
+                </div>
+                <div class="letter-column">
+                    <h3>G (46-60)</h3>
+                    <div id="calledG" class="called-numbers-list"></div>
+                </div>
+                <div class="letter-column">
+                    <h3>O (61-75)</h3>
+                    <div id="calledO" class="called-numbers-list"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="winner-section" id="winnerSection">
+            <h2>¡Bingo!</h2>
+            <input type="text" id="winnerName" placeholder="Nombre del ganador">
+            <input type="text" id="prize" placeholder="Premio">
+            <button id="declareWinner">Declarar Ganador</button>
+        </div>
+        
+        <div class="history">
+            <h2>Historial de Juegos</h2>
+            <table id="gameHistory">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Ganador</th>
+                        <th>Premio</th>
+                        <th>Números</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

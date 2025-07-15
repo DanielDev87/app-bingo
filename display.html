@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de Bingo</title>
+    <link rel="stylesheet" href="css/display.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bingo en curso</h1>
+        
+        <div class="current-info">
+            <div class="last-number">
+                <h2>Último número:</h2>
+                <div id="currentNumber">-</div>
+            </div>
+            
+            <div class="winner-info" id="winnerInfo">
+                <h2>Último ganador:</h2>
+                <div id="winnerName">-</div>
+                <div id="winnerPrize">-</div>
+            </div>
+        </div>
+        
+        <div class="bingo-card-display">
+            <div class="bingo-header">
+                <div class="letter-cell">B</div>
+                <div class="letter-cell">I</div>
+                <div class="letter-cell">N</div>
+                <div class="letter-cell">G</div>
+                <div class="letter-cell">O</div>
+            </div>
+            <div class="bingo-grid-display" id="bingoGridDisplay">
+                <!-- Se generará dinámicamente -->
+            </div>
+        </div>
+        
+        <div class="called-numbers">
+            <h2>Números llamados:</h2>
+            <div id="calledNumbersContainer"></div>
+        </div>
+        
+        <div class="history">
+            <h2>Historial de ganadores</h2>
+            <table id="winnersHistory">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Ganador</th>
+                        <th>Premio</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="js/storage.js"></script>
+    <script src="js/display.js"></script>
+</body>
+</html>
